@@ -16,6 +16,14 @@ Here is a run through of how to set up the application:
     * **`env/bin/activate` or `env/Scripts/activate`**
         * Note that you can exit the virtual environment by running the command **`deactivate`**
 * **Step 4** : Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
+
+### Database setup
+    open python shell and make sure you are running on enviroment
+
+    Run the following commands respectively:
+
+    * **` from app import db`**
+    * **` db.create_all()`**
     * On the same file write down the command **`python app.py`** 
 
 Open http://127.0.0.1:5000/, customize project files and **have fun**.
