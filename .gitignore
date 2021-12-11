@@ -4,7 +4,8 @@
 *.log
 *.sql
 *.sqlite
-.db
+*.db
+todo.db
 
 # OS generated files #
 ######################
